@@ -7,18 +7,18 @@ const Contato = () => {
       <h6 className="flex justify-center">
         Você pode me contatar pelos seguintes meios:
       </h6>
-      <div className="flex justify-evenly p-5 ">
+      <div className="flex justify-evenly p-2 ">
         <a href="">
-          <img className="w-80 h-9 animate-pulse" src={github} alt="github" />
+          <img className="w-10 h-9 animate-pulse" src={github} alt="github" />
         </a>
         <a href="">
           {" "}
-          <img className="w-80 h-9  animate-pulse" src={email} alt="email" />
+          <img className="w-10 h-9  animate-pulse" src={email} alt="email" />
         </a>
         <a href="">
           {" "}
           <img
-            className="w-80 h-9 animate-pulse"
+            className="w-10 h-9 animate-pulse"
             src={linkedin}
             alt="linkedin"
           />

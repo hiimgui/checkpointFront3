@@ -1,8 +1,17 @@
 import podcastream from "../assets/podcastream.png";
-import ninjas from "../assets/ninhas.png";
+
 import alura from "../assets/aluraquiz.png";
+import ctd from "../assets/ctd-e-commerce.png";
 
 const dataArr = [
+  {
+    imagem: `${ctd}`,
+    titulo: "CTD E-Commerce",
+    descricao: 
+    "Projeto fullstack em grupo usando Java, AWS/Heroku, React",
+
+    link: "https://ctd-checkpoint-integrador-frontend.vercel.app/",
+  },
   {
     imagem: `${podcastream}`,
     titulo: "Podcastream",
@@ -17,12 +26,6 @@ const dataArr = [
       "Projeto desenvolvido ao longo dos dias do evento de imersão da Alura",
     link: "https://github.com/hiimgui/aluraquiz-hiimgui",
   },
-  {
-    imagem: `${ninjas}`,
-    titulo: "Ninja list - Tutorial The Net Ninja",
-    descricao:
-      "Código desenvolvido seguindo o tutorial cedido pelo The Net Ninja, explorando o Next.js",
-    link: "https://github.com/hiimgui/ninjalist-hiimgui",
-  },
+  
 ];
 export default dataArr;
