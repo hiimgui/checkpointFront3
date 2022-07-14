@@ -2,15 +2,17 @@ import Cards from "../Cards";
 
 const Projects = (props) => {
   return (
-    <>
-      <h4
+    <div className="min-h-3/4 grid place-content-center">
+       <h4
         id="projetos"
-        className="flex justify-center m-10 text-3xl text-opacity-50"
+        className="flex p-6 justify-center m-10 text-3xl text-opacity-50 min-h-full"
       >
-        Projetos que participei ou desenvolvi:
-      </h4>
-      <Cards />
-    </>
+         Projetos que participei ou desenvolvi:
+         </h4>
+      <div className="grid place-items-center grid-flow-row ">
+      <Cards className="" />
+      </div>
+    </div>
   );
 };
 

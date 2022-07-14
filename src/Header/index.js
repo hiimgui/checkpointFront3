@@ -1,10 +1,10 @@
 import "./header.scss";
 const Header = (params) => {
   return (
-    <div>
-      <ul className="flex m-3 justify-around font-bold ">
+    <div className="flex justify-evenly">
+      <ul className="flex m-3 justify-evenly font-bold ">
         <a href="/#" className="cursor-pointer">
-          <li className="lg:m-2"> GUILHERME KAGUEIAMA PROCOPIO</li>
+          <li className="lg:m-3"> GUILHERME KAGUEIAMA PROCOPIO</li>
         </a>
         <a href="#about" className="cursor-pointer">
           <li className="m-3"> ABOUT </li>
